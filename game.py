@@ -25,7 +25,7 @@ while(True):
     
     if(computer_score==3):
         print(f"The score of computer is:{computer_score}")
-        print("You loose this Stone paper scissors game")
+        print("You Lose this Stone paper scissors game")
         break
     elif(user_score==3):
         print(f"Your final score is:{user_score}")
@@ -48,7 +48,7 @@ while(True):
                 print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}")
             elif(computer == 1 and UserChoice == 3):
                 print(f"You Choose {User_choice_Dictionary[UserChoice]} And computer Choose {User_choice_Dictionary[computer]}")
-                print("You Loose!")
+                print("You Lose!")
                 computer_score += 1
                 print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}")
                 
@@ -59,7 +59,7 @@ while(True):
                 print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}")
             elif(computer == 2 and UserChoice == 1):
                 print(f"You Choose {User_choice_Dictionary[UserChoice]} And computer Choose {User_choice_Dictionary[computer]}")
-                print("You Loose!")
+                print("You Lose!")
                 computer_score += 1
                 print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}")
                 
@@ -70,7 +70,7 @@ while(True):
                 print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}")
             elif(computer == 3 and UserChoice == 2):
                 print(f"You Choose {User_choice_Dictionary[UserChoice]} And computer Choose {User_choice_Dictionary[computer]}")
-                print("You Loose!")
+                print("You Lose!")
                 computer_score += 1
                 print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}")
 

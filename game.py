@@ -76,3 +76,4 @@ while(True):
 
         # loop_track += 1
         # print(loop_track)
+print("Thanks for playing Game")

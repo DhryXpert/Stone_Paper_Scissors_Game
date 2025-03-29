@@ -29,7 +29,7 @@ while(True):
         break
     elif(user_score==3):
         print(f"Your final score is:{user_score}")
-        print("Congrulation you win this Stone paper scissors game!")
+        print("Congratulations you win this Stone paper scissors game!")
         break
         
     else:

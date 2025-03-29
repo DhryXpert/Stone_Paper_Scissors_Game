@@ -49,16 +49,15 @@ Computer chose Scissors
 You win this round!
 Score: You 1 - 0 Computer
 
+```
 ## 🔧 Future Improvements
 I haven't made this game perfect yet, so I plan to improve it by:  
 ✅ Adding a GUI for better user experience 🎨  
 ✅ Allowing multiple rounds instead of a fixed score limit 🔄  
 ✅ Improving error handling and input validation 🚀
-```
 
 ## Contributing
 Feel free to fork the repository and submit pull requests with improvements or additional features.
 
 ## License
 This project is open-source and available under the MIT License.
-

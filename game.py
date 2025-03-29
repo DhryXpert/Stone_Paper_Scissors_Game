@@ -1,20 +1,21 @@
+# stone-paper-scissors
 """
 1 -> Stone
 2-> Paper
 3 -> Sissor
 """
 import random
-User_choice_Dictionary = {1:"Stone", 2:"Paper" , 3:"Sissors"}
-User_choice_reverse_Dictionary = {"Stone":1,"Paper":2,"Sissors":3}
+User_choice_Dictionary = {1:"Stone", 2:"Paper" , 3:"scissors"}
+User_choice_reverse_Dictionary = {"Stone":1,"Paper":2,"scissors":3}
 NumberList = [1,2,3]
 computer_score = 0
 user_score = 0
     
-print("Welcome To Stone paper Sissors Game")
+print("Welcome To Stone paper scissors Game")
 print("Rules")
 print("Press 1 For Select Stone")
 print("Press 2 For Select Paper")
-print("Press 3 For Select Sissors")
+print("Press 3 For Select scissors")
 # print("You have Totel 5 chance to play")
 print("For win you have to score 3 points, otherwise you will lose")
 
@@ -24,11 +25,11 @@ while(True):
     
     if(computer_score==3):
         print(f"The score of computer is:{computer_score}")
-        print("You loose this Stone paper sissors game")
+        print("You loose this Stone paper scissors game")
         break
     elif(user_score==3):
         print(f"Your final score is:{user_score}")
-        print("Congrulation you win this Stone paper sissors game!")
+        print("Congrulation you win this Stone paper scissors game!")
         break
         
     else:

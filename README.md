@@ -1,21 +1,27 @@
-# Stone-Paper-Scissors Game
+# Stone Paper Scissors Game
 
-This is a simple command-line implementation of the classic Stone-Paper-Scissors game using Python.
+## Introduction
+This is a simple Stone-Paper-Scissors game implemented in Python. The game allows a user to play against the computer until either the user or the computer scores 3 points.
+
+## Rules
+- **1 -> Stone**
+- **2 -> Paper**
+- **3 -> Scissors**
+- The game continues until one of the players (user or computer) reaches 3 points.
+- A draw does not affect the scores.
 
 ## How to Play
-- Press `1` to choose **Stone**
-- Press `2` to choose **Paper**
-- Press `3` to choose **Scissors**
-- The game continues until either the user or the computer scores **3 points**.
+1. Run the Python script.
+2. Follow the on-screen instructions.
+3. Choose your move by entering `1`, `2`, or `3`.
+4. The game continues until you or the computer wins.
 
-## Game Rules
-- **Stone beats Scissors**
-- **Scissors beats Paper**
-- **Paper beats Stone**
-- If both the user and the computer choose the same option, the round is a **draw**.
+## Installation & Execution
+### Prerequisites
+- Python (version 3.x recommended)
 
-## Installation & Running
-1. Clone this repository:
+### Steps to Run
+1. Clone the repository:
    ```sh
    git clone https://github.com/your-username/stone-paper-scissors.git
    ```
@@ -23,41 +29,34 @@ This is a simple command-line implementation of the classic Stone-Paper-Scissors
    ```sh
    cd stone-paper-scissors
    ```
-3. Run the game:
+3. Run the script:
    ```sh
    python game.py
    ```
 
 ## Features
-✔ Randomized computer moves
-✔ Score tracking
-✔ Input validation to prevent crashes
-✔ Simple and fun command-line interaction
+- User-friendly interactive game.
+- Randomized computer choices.
+- Continuous play until a winner is decided.
 
 ## Example Gameplay
 ```
-Welcome to the Stone-Paper-Scissors Game!
+Welcome To Stone Paper Scissors Game
 Rules:
-Press 1 for Stone
-Press 2 for Paper
-Press 3 for Scissors
-First to score 3 points wins the game!
+Press 1 For Select Stone
+Press 2 For Select Paper
+Press 3 For Select Scissors
+For win you have to score 3 points, otherwise you will lose
 
-Enter your choice (1/2/3): 1
-You chose Stone
-Computer chose Scissors
-You win this round!
-Score: You 1 - 0 Computer
-
+Enter Number(1/2/3): 1
+You Choose Stone And Computer Choose Scissors
+You Win!
+...
 ```
-## 🔧 Future Improvements
-I haven't made this game perfect yet, so I plan to improve it by:  
-✅ Adding a GUI for better user experience 🎨  
-✅ Allowing multiple rounds instead of a fixed score limit 🔄  
-✅ Improving error handling and input validation 🚀
 
-## Contributing
-Feel free to fork the repository and submit pull requests with improvements or additional features.
+## Contributions
+Contributions are welcome! If you want to improve the game, feel free to fork the repository and submit a pull request.
 
 ## License
 This project is open-source and available under the MIT License.
+

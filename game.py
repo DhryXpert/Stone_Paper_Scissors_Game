@@ -10,6 +10,7 @@ User_choice_reverse_Dictionary = {"Stone":1,"Paper":2,"scissors":3}
 NumberList = [1,2,3]
 computer_score = 0
 user_score = 0
+draw_score = 0
     
 print("Welcome To Stone paper scissors Game")
 print("Rules")
@@ -38,6 +39,7 @@ while(True):
         
         if (computer == UserChoice):
             print("Draw")
+            draw_score += 1
             print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}")
             # loop_track -= 1
         else:
@@ -45,34 +47,34 @@ while(True):
                 print(f"You Choose {User_choice_Dictionary[UserChoice]} And computer Choose {User_choice_Dictionary[computer]}")
                 print("You Win!")
                 user_score += 1
-                print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}")
+                print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score} and Draw score is {draw_score}")
             elif(computer == 1 and UserChoice == 3):
                 print(f"You Choose {User_choice_Dictionary[UserChoice]} And computer Choose {User_choice_Dictionary[computer]}")
                 print("You Lose!")
                 computer_score += 1
-                print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}")
+                print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score} and Draw score is {draw_score}")
                 
             elif(computer == 2 and UserChoice == 3):
                 print(f"You Choose {User_choice_Dictionary[UserChoice]} And computer Choose {User_choice_Dictionary[computer]}")
                 print("You Win!")
                 user_score += 1
-                print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}")
+                print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score} and Draw score is {draw_score}")
             elif(computer == 2 and UserChoice == 1):
                 print(f"You Choose {User_choice_Dictionary[UserChoice]} And computer Choose {User_choice_Dictionary[computer]}")
-                print("You Lose!")
+                print("You Lose!") 
                 computer_score += 1
-                print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}")
+                print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score} and Draw score is {draw_score}")
                 
             elif(computer == 3 and UserChoice == 1):
                 print(f"You Choose {User_choice_Dictionary[UserChoice]} And computer Choose {User_choice_Dictionary[computer]}")
                 print("You Win!")
                 user_score += 1
-                print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}")
+                print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score} and Draw score is {draw_score}")
             elif(computer == 3 and UserChoice == 2):
                 print(f"You Choose {User_choice_Dictionary[UserChoice]} And computer Choose {User_choice_Dictionary[computer]}")
                 print("You Lose!")
                 computer_score += 1
-                print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}")
+                print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}and Draw score is {draw_score}")
 
         # loop_track += 1
         # print(loop_track)

@@ -40,7 +40,7 @@ while(True):
         if (computer == UserChoice):
             print("Draw")
             draw_score += 1
-            print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score}")
+            print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score} and Draw score is {draw_score}")
             # loop_track -= 1
         else:
             if(computer == 1 and UserChoice == 2):

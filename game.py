@@ -37,7 +37,7 @@ while(True):
         computer = random.choice(NumberList)
         UserChoice = int(input("Enter Number(1/2/3):"))
         
-        if (computer == UserChoice):
+        if (computer == UserChoice):  
             print("Draw")
             draw_score += 1
             print(f"Your Current score is:{user_score} and Computer Current score is:{computer_score} and Draw score is {draw_score}")
